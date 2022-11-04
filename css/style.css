@@ -1,3 +1,28 @@
+/*Eliminamos los margenes y paddings que agrega el navegador por defecto*/
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/*Agregamos margenes inferiores a los parrafos*/
+p {
+	margin-bottom: 20px;
+}
+header {
+	background: rgba(0,0,0,0.9);
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+}
+.contenido {
+	padding-top: 80px;
+}
+.wrapper {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
 #abrir{
 
 }
